@@ -50,3 +50,51 @@ a.h4{
 a.h5{
     padding-left: 45px;
 }
+   
+
+.beach{
+    margin-top: 40px;
+    width:1150px;
+    height: 500px;
+    
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+.explore h1{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 64px;
+    font-weight: 800;
+    color:white;
+    
+}
+.para1{
+    text-align: center;
+    padding-top: 33px;
+    color: white;
+}
+.beach{
+    background-image:url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 8px;
+}
+
+
+
+
+.box shadow,.where,.when,.select,.find{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-left: 60px;
+    border-color: aliceblue;
+}
+.where{
+    padding-left:200px ;
+    border-radius: 10px;
+    }
+.find button{
+    padding-top: 20px;
+}
+
