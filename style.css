@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-content{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 90%;
+    display: flex;
+    
+    
+}
+.vision-tra{
+    display: flex;
+    width: 50%;
+    
+}
+.vision-pic{
+    height: 70px;
+    width: 50px;
+}
+.tra-text {
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.home-bar a{
+    text-decoration: none;  
+    color: var(--Dark-02, #424247);
+    font-size: 18px; 
+    font-weight: 400;
+}
+.home-bar{
+    padding-top: 25px;
+    padding-left: 90px;
+    row-gap: 45px;
+    }
+a.h2{
+    padding-left: 45px;
+}
+a.h3{
+    padding-left: 45px;
+
+}
+a.h4{
+    padding-left: 45px;
+}
+a.h5{
+    padding-left: 45px;
+}
