@@ -56,8 +56,8 @@ a.h5{
 
 .beach{
     margin-top: 40px;
-    width:1150px;
-    height: 500px;
+   max-width: 1150px;  
+   height: 500px;
     
     margin-left: 60px;
     margin-right: 60px;
@@ -117,7 +117,7 @@ a.h5{
     
 }
 .container-pic{
-    width:50%;
+  Max-width:50%;
     
 }
 .tours{
@@ -167,7 +167,7 @@ ul{
     color: grey;
 }
 .grid-pic{
-    width:1170px;
+  max-width:1170px;
     height: 900px;
     margin-top: 40px;
     margin-left: 50px;
@@ -309,6 +309,49 @@ font-size: 16px;
 font-style: normal;
 font-weight: 200;
 line-height: normal;
+}
+@media screen and (max-width:576px) {
+    .vision-tra,.vision-pic{
+        grid-template-columns: repeat(1,1fr);
+        background-color: red;
+    }
+   
+    .homebar{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .beach{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .find{
+        width: auto;
+        height: auto;
+        
+    }
+    .home-bar{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .content-text{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .full-size{
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 576px;
+        margin-bottom: 200px;
+        margin-top: 200px;
+    }
+    .choose{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 400px;
+        grid-area: 200px;
+        max-width: 576px;
+    }
+    .choose{
+        grid-template-columns: repeat(1,fr);
+        margin-top: 250px;
+    }
+    
 }
 
     
