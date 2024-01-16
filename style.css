@@ -164,13 +164,61 @@ ul{
 }
 .travel{
     padding-top: 25px;
+    color: grey;
 }
 .grid-pic{
     width:1170px;
     height: 900px;
-    border: 2px solid red;
     margin-top: 40px;
     margin-left: 50px;
     margin-right: 20px;
 }
+.choose{
+    margin-top: 80px;
+}
+.cards{
+    max-width:1170px;
+    height: 320px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 30px;
+    border: 2px solid green;
+    display:flex;
+    justify-content: space-around;
+}
+.handpic{
+    width: 550px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding-top: 30px;
+padding-left: 25px;
+
+}
+.world-class{
+    width: 550px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding-top: 30px;
+padding-left: 25px;
+
+
+}
+.guarantee{
+    width: 550px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+margin-left: 350px;
+padding-top: 30px;
+padding-left: 25px;
+
+
+}
+
+
 
