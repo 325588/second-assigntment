@@ -182,7 +182,7 @@ ul{
     margin-top: 40px;
     margin-left: 50px;
     margin-right: 30px;
-    border: 2px solid green;
+    
     display:flex;
     justify-content: space-around;
 }
@@ -219,6 +219,58 @@ padding-left: 25px;
 
 
 }
+.deals{
+    text-align: center;
+    margin-top: 90px;
+}
+.section{
+    width: 1150px;
+    height: 500px;
+    border: 2px solid red;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 50px;
+    display: flex;
+}
+.news{
+    height: 420px;
+    width: 400px;
+    border:1px solid rgb(179, 5, 95); 
+    
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-left: 35px;
+}
+.inputt{
+    margin-top: 70px;
+}
+.inputt1{
+    margin-top: 20px;
+    color: black;
+}
+.boxx{
+    width: 250px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: rgb(179, 5, 95);
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-left: 930px;
+    margin-bottom: 50px;
+    position: relative;
+    transform: rotate(-45deg);
+}
+.trand{
+    width: 1250px;
+    height: 500px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top:70px;
+}
+.hill{
+    display: flex;
+}
+
 
 
 
