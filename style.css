@@ -261,20 +261,57 @@ padding-left: 25px;
     position: relative;
     transform: rotate(-35deg);
 }
-.trand{
-    width: 1250px;
-    height: 500px;
-    background: rgba(19, 19, 24, 0.05);
-    margin-top:70px;
-}
+  
+
 .hill{
     display: flex;
 }
-.trand{
+.social img{
+    position: relative;
+    text-align: center;
+    gap: 60px;
+}
+.picc img{
+    height: 50px;
+    width: 30px;
+}
+.foot{
+    height: 700px;
+    width: 1260px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.pic-set {
     display: flex;
-    padding-left: 500px;
+    text-align: center;
+    padding-left: 490px;
     padding-top: 250px;
 }
+.text-set{
+    padding-top: 10px;
+}
+.perrr{
+    color: grey;
+    padding-left: 280px;
+    padding-top: 20px;
+}
+.sociall{
+    padding-left: 480px;
+    padding-top: 30px;
+}
+
+
+.reserved{
+    padding-left: 480px;
+    padding-top: 80px;
+    color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+
+    
 
 
 
